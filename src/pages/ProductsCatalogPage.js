@@ -1,13 +1,21 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import ProductDetail from '../features/products/ProductDetail';
 import ProductsList from '../features/products/ProductsList';
 import { selectRandomProduct } from '../features/products/productsSlice';
 
 const ProductsCatalogPage = () => {
-  const selectedProduct = selectRandomProduct();
+  let selectedProduct = selectRandomProduct();
+
+  const toggleProduct = () => {
+    selectedProduct = selectRandomProduct();
+    console.log(selectedProduct);
+  };
 
   return (
     <Container>
+      <Button onClick={()=> toggleProduct()}>
+        Select Random Product
+      </Button>
       <Row>
         <Col sm='5' and md='7'>
           <ProductsList />
