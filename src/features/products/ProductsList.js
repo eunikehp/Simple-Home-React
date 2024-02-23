@@ -1,11 +1,13 @@
-import { PRODUCTS } from '../../app/shared/PRODUCTS';
 import ProductCard from './ProductCard';
 import { Row, Col } from 'reactstrap';
+import { selectAllProducts } from './productsSlice';
 
 const ProductsList = () => {
+  const products = selectAllProducts();
+
   return (
     <Row className='ms-auto'>
-      {PRODUCTS.map((product) => {
+      {products.map((product) => {
         return (
           <Col md='5' className='m-4' key={product.id}>
             <ProductCard product={product} />
