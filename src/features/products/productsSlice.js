@@ -4,7 +4,10 @@ export const selectAllProducts = () => {
   return PRODUCTS;
 };
 
-
-export const selectRandomProduct = () => {
-  return PRODUCTS[Math.floor(Math.random() * PRODUCTS.length)];
+export const selectProductById = (id) => {
+  return PRODUCTS.find((product) => product.id === id);
 };
+
+// export const selectRandomProduct = () => {
+//   return PRODUCTS[Math.floor(Math.random() * PRODUCTS.length)];
+// };
