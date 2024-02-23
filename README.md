@@ -15,6 +15,12 @@ This website is a continuation of previous Javascript project and is converted i
 3. Javascript
 4. React
 
+### Libraries
+
+1. React Router
+React Router is a third party (yet de facto standard) library in the open-source React ecosystem that handles routing to different views from within a React application.
+
+
 ## Launch
 
 Consider also using additional elements such as: 
