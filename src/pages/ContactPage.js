@@ -23,7 +23,6 @@ const ContactPage = () => {
             Thank you in advance for your understanding and patience.
             </p>
           </div>
-          
         </Col>
       </Row>
       <Row>
