@@ -51,7 +51,7 @@ h2 {
 }
 
 .site-footer {
-    background-color: #8A817C;
+    background-color: #F4F3EE;
     padding: 20px 0;
     margin-top: 20px;
 }
@@ -68,8 +68,8 @@ h2 {
     max-width: 4rem;
 }
 
-.navbar-dark {
-    background-color: #8A817C;
+.navbar-light {
+    background-color: #F4F3EE;
     min-height: 5rem;
     margin-bottom: 15px;
 }

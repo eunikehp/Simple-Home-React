@@ -7,7 +7,10 @@ const SubHeader = ({ current }) => {
       <Col>
         <Breadcrumb>
           <BreadcrumbItem>
-            <Link to='/'>Home</Link>
+            <Link 
+              to='/' 
+              style={{color: '#463F3A', textDecoration: 'none'}}
+            >Home</Link>
           </BreadcrumbItem>
           {/* {detail && (
             <BreadcrumbItem>
