@@ -8,19 +8,21 @@ const Footer = () => {
     <footer className= 'site-footer'>
       <Container>
         <Row>
-          <Col>
+          <Col xs='6' sm='2'>
           <h5>Location</h5>
             <p>
               Bronkhorststraat 30
               <br />
               2718 AT Den Haag, The Netherlands
             </p>
-          <h5>Opening Hours</h5>
-            <p>
-              Monday - Saturday 10.00-18.00
-              <br />
-              Sunday 12.00-18.00
-            </p>
+          </Col>
+          <Col>
+            <h5>Opening Hours</h5>
+              <p>
+                Monday - Saturday 10.00-18.00
+                <br />
+                Sunday 12.00-18.00
+              </p>
           </Col>
           <Col sm='3' className='text-center'>
             <h5>Contact us:</h5>
@@ -40,7 +42,7 @@ const Footer = () => {
                 <i className='fa fa-envelope-o' /> hello@simplehome.nl
             </a>
           </Col>
-          <Col xs={{ size: 4, offset: 1 }} sm='2'>
+          <Col xs='4' sm='2'>
               <ul className='list-unstyled text-center'>
                 <li>
                   <Link to='/'>Home</Link>
@@ -56,7 +58,7 @@ const Footer = () => {
                 </li>
               </ul>
           </Col>
-          <Col xs='6' sm='3' className='text-center'>
+          <Col xs='6' sm='2' className='text-center'>
             <h5>Follow us:</h5>
             <a
                 className='btn btn-social-icon btn-instagram'

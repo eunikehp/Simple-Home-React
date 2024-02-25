@@ -4,7 +4,7 @@
 
 Simple Home is a furniture store that sold products not only on their store but also through their website. In the website, customers can view all items that are available and then order them by adding or removing from their carts. Some of their products are tables, wardrobes, kitchen cabinets, sofas, carpets, etc. 
 
-Simple Home is a one-page website, which features a Home page, About page, Products page, Contact Page, and Login Page. The website is created using HTML, CSS, Javascript with React and Redux. 
+Simple Home is a single page website. It features a Home page, About page, Products page, Contact Page, and Login Page. The website is created by using HTML, CSS, Javascript with React and Redux. To create it a single page website, React Router library is used. 
 
 This website is a continuation of previous Javascript project and is converted into React version. This project is for portfolio project - Module React at Nucamp Web and Mobile App Development.
 
