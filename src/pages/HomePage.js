@@ -5,13 +5,18 @@ import Subscribe from '../components/Subscribe';
 
 const HomePage = () => {
   return (
-    <Container>
-      <SubHeader current='Home' detail={true} />
-      <Row>
-      <img src={Cover} alt='simplehome cover' className='cover-image' />
-      </Row>
-      <Subscribe />
-    </Container>
+    <>
+      <Container>
+        <SubHeader current='Home' detail={true} />
+        <Row>
+        <img src={Cover} alt='simplehome cover' className='cover-image' />
+        </Row>
+      </Container>
+      <Container fluid>
+        <Subscribe />
+      </Container>
+    </>
+    
   );
 };
 

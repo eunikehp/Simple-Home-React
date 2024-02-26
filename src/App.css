@@ -11,6 +11,10 @@ h3,
     font-family: 'merriweather', cursive;
 }
 
+.subscribe-container {
+    padding: 0px;
+}
+
 .site-footer a { 
     color: black;
     text-decoration: none;

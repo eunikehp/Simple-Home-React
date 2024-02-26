@@ -7,24 +7,22 @@ const Footer = () => {
   return (
     <footer className= 'site-footer'>
       <Container>
-        <Row>
-          <Col xs='6' sm='2'>
-          <h5>Location</h5>
+        <Row className='text-center'>
+          <Col  sm='6' md='6' lg='4' >
+            <h5>Location</h5>
             <p>
               Bronkhorststraat 30
               <br />
               2718 AT Den Haag, The Netherlands
             </p>
-          </Col>
-          <Col>
             <h5>Opening Hours</h5>
-              <p>
-                Monday - Saturday 10.00-18.00
-                <br />
-                Sunday 12.00-18.00
-              </p>
+            <p>
+              Monday - Saturday 10.00-18.00
+              <br />
+              Sunday 12.00-18.00
+            </p>
           </Col>
-          <Col sm='3' className='text-center'>
+          <Col sm='6' md='6' lg='4' className='text-center'>
             <h5>Contact us:</h5>
             <a
                 role='button'
@@ -41,24 +39,6 @@ const Footer = () => {
             >
                 <i className='fa fa-envelope-o' /> hello@simplehome.nl
             </a>
-          </Col>
-          <Col xs='4' sm='2'>
-              <ul className='list-unstyled text-center'>
-                <li>
-                  <Link to='/'>Home</Link>
-                </li>
-                <li>
-                  <Link to='/about'>About</Link>
-                </li>
-                <li>
-                  <Link to='/catalog'>Catalog</Link>
-                </li>
-                <li>
-                  <Link to='/contact'>Contact</Link>
-                </li>
-              </ul>
-          </Col>
-          <Col xs='6' sm='2' className='text-center'>
             <h5>Follow us:</h5>
             <a
                 className='btn btn-social-icon btn-instagram'
@@ -84,6 +64,22 @@ const Footer = () => {
             >
                 <i className='fa fa-youtube' />
             </a>
+          </Col>
+          <Col  sm='12' md='6' lg='4' >
+              <ul className='list-unstyled text-center'>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/about'>About</Link>
+                </li>
+                <li>
+                  <Link to='/catalog'>Catalog</Link>
+                </li>
+                <li>
+                  <Link to='/contact'>Contact</Link>
+                </li>
+              </ul>
           </Col>
           <p className='text-center'>2024 Simple Home. Site by Eunike Hedriani Pardede</p>
         </Row>

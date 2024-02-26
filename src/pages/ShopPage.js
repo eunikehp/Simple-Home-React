@@ -13,6 +13,7 @@ const ShopPage = () => {
     <Container>
       <SubHeader current='Shop'/>
       <Row>
+        
         <Col sm='5' and md='7'>
           <ProductsList setProductId={setProductId} />
         </Col>
