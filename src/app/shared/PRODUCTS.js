@@ -1,43 +1,67 @@
-import reactLakeImg from '../assets/img/react-lake.jpg';
-import chromeRiverImg from '../assets/img/chrome-river.jpg';
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
-import reduxWoodsImg from '../assets/img/redux-woods.jpg';
+import blackDiningTable from '../assets/img/black-dining-table.jpg';
+import whiteDiningTable from '../assets/img/white-dining-table.jpg';
+import graySofa from '../assets/img/gray-sofa.jpg';
+import brownBed from '../assets/img/brown-bed.jpg';
+import whiteSofa from '../assets/img/white-sofa.jpg';
+import purpleSofa from '../assets/img/purple-sofa.jpg';
+import grayBed from '../assets/img/gray-bed.jpg';
 
 export const PRODUCTS = [
     {
         id: 0,
-        name: 'React Lake Campground',
-        image: reactLakeImg,
-        elevation: 1233,
-        featured: false,
-        description:
-            'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+        name: 'Black Dining Table',
+        image: blackDiningTable,
+        price: 1049,
+        category: 'Dining Table',
+        stockCount: 4
     },
     {
         id: 1,
-        name: 'Chrome River Campground ',
-        image: chromeRiverImg,
-        elevation: 877,
-        featured: false,
-        description:
-            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+        name: 'White Dining Table',
+        image: whiteDiningTable,
+        price: 1239,
+        category: 'Dining Table',
+        stockCount: 5
+          
     },
     {
         id: 2,
-        name: 'Breadcrumb Trail Campground',
-        image: breadCrumbImg,
-        elevation: 2901,
-        featured: false,
-        description:
-            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+        name: 'Gray Sofa',
+        image: graySofa,
+        price: 699,
+        category: 'Sofa',
+        stockCount: 2
     },
     {
         id: 3,
-        name: 'Redux Woods Campground',
-        image: reduxWoodsImg,
-        elevation: 42,
-        featured: true,
-        description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+        name: 'Brown Bed',
+        image: brownBed,
+        price: 819,
+        category: 'Bed',
+        stockCount: 1
+    },
+    {
+        id: 4,
+        name: 'White Sofa',
+        image: whiteSofa,
+        price: 759,
+        category: 'Sofa',
+        stockCount: 6
+    },
+    {
+        id: 5,
+        name: 'Purple Sofa',
+        image: purpleSofa,
+        price: 629,
+        category: 'Sofa',
+        stockCount: 10
+    },
+    {
+        id: 6,
+        name: 'Gray Bed',
+        image: grayBed,
+        price: 739,
+        category: 'Bed',
+        stockCount: 5
     }
 ];

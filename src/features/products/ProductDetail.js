@@ -1,7 +1,7 @@
 import { Card, CardImg, CardText, CardBody, Col} from 'reactstrap';
 
 const ProductDetail = ( {product} ) => {
-  const { image, name, description} = product;
+  const { image, name, price, stockCount } = product;
 
   return (
     <Col md='12' className='m-4'>
@@ -12,7 +12,8 @@ const ProductDetail = ( {product} ) => {
           alt={name}
         />
         <CardBody>
-          <CardText>{description}</CardText>
+          <CardText>{price}</CardText>
+          <CardText>{stockCount}</CardText>
         </CardBody>
       </Card>
     </Col>
